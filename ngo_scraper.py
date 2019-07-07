@@ -5,6 +5,8 @@ import pprint
 from os import path
 from bs4 import BeautifulSoup
 
+
+## this is my ngo scraper project
 file = path.exists('ngo_scraper.json')
 if file:
     with open('ngo_scraper.json', "r+") as content:
